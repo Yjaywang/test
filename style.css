@@ -1,0 +1,45 @@
+
+        
+    
+html{
+    margin: 0;
+    background-image: url('https://memeprod.ap-south-1.linodeobjects.com/user-template/a17e96b7884bba60c0a2cf9b27f8ee48.png') ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /*opacity:0.5;*/
+    background-attachment: fixed; /*讓圖片看起來會隨著滑鼠滾動*/
+}
+
+
+
+
+.question {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 20px 20px 20px 20px;
+    /*border: 5px solid black;*/
+    text-align:left;
+    font-size: large;
+    color:black;
+    border-radius: 50px; 
+    border-color: rgb(0, 0, 0);
+    border: 5px; 
+    border-style:groove;
+    font-weight: bold;
+    font-style: oblique;
+    
+  }
+.answer {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: rgba(255, 210, 174, 0.5);
+    padding: 20px 20px 20px 20px;
+    border-style:groove;
+    font-weight: bold;
+    text-align:left;
+    font-size: medium;
+    color:rgb(0, 0, 0);
+    
+
