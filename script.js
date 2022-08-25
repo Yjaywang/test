@@ -21,8 +21,8 @@ while(valid!=input && !out_limit){
 
 if (out_limit){
     alert("you can not review the content. close this tab.");
-    //window.open('', '_self', ''); //bug fix    
-    //window.close();
+    window.open('', '_self', ''); //bug fix    
+    window.close();
     open(location, '_self').close();
     
 }
